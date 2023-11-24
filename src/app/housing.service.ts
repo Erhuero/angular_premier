@@ -8,7 +8,6 @@ export class HousingService {
   url='http://localhost:3000/locations';
 
   constructor() {
-
    }
 
    async getAllHousingLocations() : Promise<HousingLocation[]> {
